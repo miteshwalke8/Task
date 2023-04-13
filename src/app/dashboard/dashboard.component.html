@@ -1,0 +1,78 @@
+<!-- Parent div starts -->
+<div fxLayout="row wrap" fxLayoutAlign="space-evenly center" class="parent">
+  <!-- First Card left -->
+  <mat-card class="childOne" fxFlex="20%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlexFill>
+    <div fxLayout="column" fxLayoutAlign="space-between center">
+      <mat-card-header><img src="assets/user.jpg"></mat-card-header>
+      <mat-card-title>Jone Smith</mat-card-title>
+      <mat-card-subtitle>CFA,CIC</mat-card-subtitle>
+      <div class="icon-text">
+        <img class="crownImg" src="assets/crown.png">
+        <mat-card-content class="text">
+          Premium Member
+        </mat-card-content>
+      </div>
+      <div class="icon-text">
+        <mat-icon class="schoolIcon" fontIcon="school">
+        </mat-icon>
+        <mat-card-actions>Insurance Agent, Attorny,<br> Accountant </mat-card-actions>
+      </div>
+    </div><br>
+    <mat-divider></mat-divider><br>
+    <div fxLayout="column" fxLayoutAlign="space-between center">
+      <mat-card-footer>
+        <button mat-flat-button style="color:#c62128;">Send an Email
+          <mat-icon aria-hidden="false" aria-label="Example mail icon" fontIcon="mail"></mat-icon>
+        </button><br><br>
+      </mat-card-footer>
+    </div>
+  </mat-card>
+
+  <!-- First Card left closed-->
+
+  <!-- Second Card right starts-->
+  <mat-card class="childTwo" fxFlex="60%" fxFlex.xs="100%" fxFlex.sm="33%" >
+    <mat-toolbar class="toolBar">Bussiness Details</mat-toolbar>
+    <br>
+    <mat-card-content>
+      <mat-card class="childThree" fxFlex="100%" fxFlex.xs="100%" fxFlex.sm="50%">
+        <mat-card-content>
+          <div fxLayout="row" fxLayoutAlign="space-between center">
+            <button mat-flat-button class="profileButton">Profile
+              <mat-icon aria-hidden="false" style="color: green; font-size: large;" aria-label="Example person icon"
+                fontIcon="person">
+              </mat-icon>
+            </button>
+            <button (click)="UpdateUser(user)" mat-flat-button style="background-color: #c62128; color: #fff;">Edit Profile</button>
+          </div>
+          <br>
+          <mat-divider></mat-divider>
+          <div fxLayout="row" >
+            <div class="one">
+              <menu>Name:</menu>
+              <menu>Domain:</menu>
+              <menu>Gender:</menu>
+              <menu>Date Of Birth:</menu>
+              <menu>Phone Number:</menu>
+              <menu>Location:</menu>
+            </div>
+            <div class="container">
+              <menu>{{user.name}}</menu>
+              <menu>{{user.domain}}</menu>
+              <menu>{{user.gender}}</menu>
+              <menu>{{user.dob | date:'dd MMM yy'  }}</menu>
+              <menu>+91 {{user.pn}}</menu>
+              <menu>{{user.location}}</menu>
+            </div>
+          </div>
+
+        </mat-card-content>
+      </mat-card>
+    </mat-card-content>
+  </mat-card>
+  <!-- Second Card right closed-->
+  <!-- Paren div closed -->
+  
+</div>
+
+

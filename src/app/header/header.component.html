@@ -1,0 +1,40 @@
+<mat-toolbar style="background-color: #fff;" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.xs="column">
+    <div fxHide.gt-xs>
+      <button mat-icon-button (click)="onToggleSidenav()">
+          <mat-icon>menu</mat-icon>
+      </button>
+      <button mat-flat-button> <img src="assets/logo.jpg">
+      </button>
+      <button mat-flat-button style="color: red;">Legacy Life Plans
+      </button>
+  </div>
+    <div fxFlex fxLayout fxHide.xs>
+      <button mat-flat-button> <img src="assets/logo.jpg">
+      </button>
+      <button mat-flat-button style="color: red;">Legacy Life Plans
+      </button>
+      <button mat-flat-button>Home
+        <mat-icon aria-hidden="false" aria-label="Example Home icon" fontIcon="home"></mat-icon>
+      </button>
+      <button mat-flat-button>Trustees
+        <mat-icon aria-hidden="false" aria-label="Example Trustees account" fontIcon="group"></mat-icon>
+      </button>
+      <button mat-flat-button style="color: #c62128;">Professionals
+        <mat-icon aria-hidden="false" aria-label="Example person icon" fontIcon="person"></mat-icon>
+      </button>
+      <button mat-flat-button>More
+        <mat-icon aria-hidden="false" aria-label="Example more_horiz icon" fontIcon="more_horiz"></mat-icon>
+      </button>
+    </div>
+    <div fxHide.xs>
+      <button mat-flat-button>
+        <mat-icon aria-hidden="false" aria-label="Example search icon" fontIcon="search"></mat-icon>
+      </button>
+      <button mat-flat-button style="background-color: #c62128; color: #fff;">Invite
+        <mat-icon aria-hidden="false" aria-label="Example mail icon" fontIcon="mail"></mat-icon>
+      </button>
+      <button mat-flat-button style="size: 1px"> <img class="userPhoto" src="assets/user.jpg"
+          style="width: 35%; height: 35%;">
+      </button>
+    </div>
+  </mat-toolbar>

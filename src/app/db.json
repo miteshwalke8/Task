@@ -1,0 +1,165 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "name": "John",
+      "domain": "Cena",
+      "gender": "male",
+      "dob": "1977-04-22T18:30:00.000Z",
+      "pn": "9876543235",
+      "location": "Massachusetts, USA",
+      "id": 1
+    },
+    {
+      "name": "",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 5
+    },
+    {
+      "name": "j",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 7
+    },
+    {
+      "name": "s",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 9
+    },
+    {
+      "name": "Johan",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 10
+    },
+    {
+      "name": "cena",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 11
+    },
+    {
+      "name": "John",
+      "domain": "sMITH",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 12
+    },
+    {
+      "name": "JOH",
+      "domain": "",
+      "gender": "",
+      "dob": "",
+      "pn": "",
+      "location": "",
+      "id": 13
+    },
+    {
+      "name": "John",
+      "domain": "Cena",
+      "gender": "male",
+      "dob": "1977-04-22T18:30:00.000Z",
+      "pn": "9876543235",
+      "location": "Massachusetts, USA",
+      "id": 14
+    },
+    {
+      "name": "Johnn",
+      "domain": "Cena",
+      "gender": "male",
+      "dob": "1977-04-22T18:30:00.000Z",
+      "pn": "9876543235",
+      "location": "Massachusetts, USA",
+      "id": 15
+    },
+    {
+      "name": "Johnnn",
+      "domain": "Cena",
+      "gender": "male",
+      "dob": "1977-04-22T18:30:00.000Z",
+      "pn": "9876543235",
+      "location": "Massachusetts, USA",
+      "id": 16
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+    .toolBar{
+        background-color: red;
+    }
+    
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+@media only screen and (min-width: 600px) {
+    .container {
+        padding-left: 0%;
+        
+    }
+    .toolBar{
+      display: flexbox;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        padding-left: 0%;
+    }
+   
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .container {
+        padding-left: 0%;
+    }
+  }
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding-left: 10%;
+        margin-top: 1%;
+    }
+  }
+
+.childTwo{
+        width: 65%;
+       
+    }
+    
+    .childOne{
+        width: 20%;
+        height: 60%;
+    
+    }
+    .childThree{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .icon-text {
+      display: flex;
+      align-items: center;
+    }
+    
+    .crownImg{
+      font-size: 13px; /* Set the font size for the icon */
+      margin-left: 15px; /* Add some spacing between the icon and text */
+      margin-bottom: 18px;
+    }
+    
+    .text {
+      font-size: 14px; /* Set the font size for the text */
+    }
+    .schoolIcon{
+        margin-bottom: 20px;
+        margin-right: 1px;
+    }
+    
+    // .container{
+    //     padding-left: 25%;
+    // }
+    .one{
+        font-weight: bolder;
+    }
+    .profileButton{
+        font-weight: bolder;
+        font-size: large;
+    }
+    .toolBar{
+        background-color: #e7eacd;
+    }
+    .KeyValue{
+        padding-right: 40%;
+        // text-align: end;
+    }
+    
+
